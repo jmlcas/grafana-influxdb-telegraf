@@ -12,7 +12,7 @@ services:
     env_file:
       - 'env.influxdb'
     volumes:
-      - ./srv/influxdb/data:/var/lib/influxdb
+      - ./data_influxdb:/var/lib/influxdb
 
   telegraf:
     image: telegraf:1.16.3   
@@ -33,7 +33,11 @@ services:
     links:
       - influxdb
     volumes:
-      - ./srv/grafana/data:/var/lib/grafana
+      - ./data_grafana:/var/lib/grafana
 
+volumes:
+  data_influxdb:
+  data_grafana:
+  telegraf.conf:
 
   
