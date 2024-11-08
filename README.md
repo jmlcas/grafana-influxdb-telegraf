@@ -2,7 +2,9 @@
 
 Grafana:
 
-http://localhost:3000user: admin  password: admin
+http://localhost:3000
+
+user: admin  password: admin
 
 Config. Grafana:
 
