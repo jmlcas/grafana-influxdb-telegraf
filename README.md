@@ -1,7 +1,4 @@
-# Docker-compose:
-# InfluxDB
-# + Grafana 
-# + Telegraf
+# InfluxDB + Grafana + Telegraf
 
 Run:
 ```
