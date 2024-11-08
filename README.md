@@ -11,9 +11,6 @@ INFLUXDB:
 
 http://influxdb:8086
 
-Server (default)
-
-InfluxDB Details
 
 Database: telegraf
 
